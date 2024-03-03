@@ -103,7 +103,7 @@ void *consumer(void *data) {
 void *manager(void *data) {
     char choice;
     while (1) {
-        printf("Enter choice: ");
+        printf("Enter choice p(producer), c(consumer), q to quit: ");
         scanf(" %c", &choice);
         switch (choice) {
             case 'p':
